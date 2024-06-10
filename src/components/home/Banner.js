@@ -1,40 +1,39 @@
-'use client'
-import Script from 'next/script'
-import React, { useRef } from 'react'
+'use client';
+import Script from 'next/script';
+import React, { useState } from 'react';
 
 const Banner = () => {
-    const containerRef = useRef(null)
+  const [frameSrc, setFrameSrc] = useState('/form.html');
 
-    function moveScript() {
-        containerRef.current.appendChild(this)
-    }
-    return (
-        <div className=''>
-            <div
-                className="relative md:h-[100vh] h-[100vh] bg-no-repeat bg-cover bg-right "
-                style={{
-                    backgroundImage: `url("/images/banner.jpg")`,
-                }}
-            >
-                <div className='flex flex-col items-center backdrop-blur-sm bg-black/40 h-full'>
-                    <h1 className=' font-bold text-5xl text-white mt-24 w-[60%] text-center leading-[55px]'> Instant Loans, from $100 to $5000 </h1>
-                    <div>
-                        {/* <Script src="https://cdn101-om162-client.phonexa.com/form/run.php?p=E84F20F55F744C9C93B0597EEB4F68C7" /> */}
-                        {/* <Script
-        id="script"
-        type="text/javascript"
-        src="#url"
-        async
-        onLoad={moveScript}
-      /> */}
-                    </div>
-                    
-                </div>
-
-
-            </div>
+  return (
+    <div>
+      <div
+        className="relative md:h-[100vh] h-[100vh] bg-no-repeat bg-cover bg-right "
+        style={{
+          backgroundImage: `url("/images/banner.jpg")`,
+        }}
+      >
+        {' '}
+        <div className='font-bold text-4xl text-center text-white pt-20'>
+        Instant Loans, from $100 to $5000
         </div>
-    )
-}
+        <div className="iframe-container">
+          <iframe
+            title="Frame Content"
+            src={frameSrc}
+            width="640"
+            height="360"
+          ></iframe>
+        </div>
+        {/* <div className="flex flex-col items-center h-full backdrop-blur-sm bg-black/40">
+          <h1 className="font-bold text-5xl text-white mt-24 w-[60%] text-center leading-[55px]">
+            {' '}
+            Instant Loans, from $100 to $5000{' '}
+          </h1>
+        </div> */}
+      </div>
+    </div>
+  );
+};
 
-export default Banner
+export default Banner;
