@@ -1,6 +1,6 @@
 'use client'
 import Script from 'next/script'
-import React from 'react'
+import React, { useRef } from 'react'
 
 const Banner = () => {
     const containerRef = useRef(null)
