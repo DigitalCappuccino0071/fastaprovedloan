@@ -5,49 +5,49 @@ const SectionTwo = () => {
   const data = [
     {
       id: 1,
-      customeHeight: "h-72",
+      customeHeight: "",
       icon: "/images/sec1-a.png",
-      title: "Collaboration",
-      des: "We've joined forces with AAPC to improve our training. Our partnership will help you to receive top-quality medical coding education and certification.",
+      title: "Any Credit History",
+      des: "Bad Credit? No problem, our lenders accept all applications.",
     },
     {
       id: 2,
-      customeHeight: "h-80",
+      customeHeight: "",
       icon: "/images/sec1-b.png",
-      title: "Objective",
-      des: "Our goal is to provide you with exceptional medical coding education. We aim to prepare you for a successful career in the industry.",
+      title: "No Obligation",
+      des: "Complete freedom to accept or decline even after an offer is presented.",
     },
     {
       id: 3,
-      customeHeight: "h-72",
+      customeHeight: "",
       icon: "/images/sec1-c.png",
-      title: "Vision",
-      des: "Our vision is to train and place thousands of budding professionals. Thus, making a lasting impact in the medical coding industry.",
+      title: "Rebuild Credit Score",
+      des: "Many of the lenders in our network report on-time payments to credit agencies.",
     },
     {
       id: 4,
-      customeHeight: "h-72",
+      customeHeight: "",
       icon: "/images/sec1-d.png",
-      title: "Collaboration",
-      des: "We've joined forces with AAPC to improve our training. Our partnership will help you to receive top-quality medical coding education and certification.",
+      title: "Accept Your Funds",
+      des: "Our Lenders let you know if your approved on average as little as 60sec.",
     },
     {
       id: 5,
-      customeHeight: "h-80",
+      customeHeight: "",
       icon: "/images/sec1-e.png",
-      title: "Objective",
-      des: "Our goal is to provide you with exceptional medical coding education. We aim to prepare you for a successful career in the industry.",
+      title: "Online Process",
+      des: "Our short online form can be completed in just 2 min.",
     },
     {
       id: 6,
-      customeHeight: "h-72",
+      customeHeight: "",
       icon: "/images/sec1-f.png",
-      title: "Vision",
-      des: "Our vision is to train and place thousands of budding professionals. Thus, making a lasting impact in the medical coding industry.",
+      title: "Truth in Lending",
+      des: "All personal loan providers are regulated by federal and or state laws.",
     },
   ];
   return (
-    <div className='container'>
+    <div className='container bg-primary'>
        <div className="bg-primay py-16 space-y-12">
       <div className="">
         <div className=" md:grid grid-cols-3 justify-start gap-10 md:space-y-0 space-y-8">

@@ -14,6 +14,9 @@ const Banner = () => {
         }}
       >
         {' '}
+        <div className='font-bold text-4xl text-center text-white pt-20'>
+        Instant Loans, from $100 to $5000
+        </div>
         <div className="iframe-container">
           <iframe
             title="Frame Content"
