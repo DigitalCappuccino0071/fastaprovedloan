@@ -1,3 +1,4 @@
+import Footer from '@/components/common/Footer'
 import Navbar from '@/components/common/Navbar'
 import Banner from '@/components/home/Banner'
 import Faq from '@/components/home/Faq'
@@ -15,6 +16,7 @@ const Page = () => {
       <SectionThree/>
       <SectionFour/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }
