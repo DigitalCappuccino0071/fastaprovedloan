@@ -8,21 +8,20 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="relative md:h-[100vh] h-[100vh] bg-no-repeat bg-cover bg-right "
+        className="relative md:h-[100vh] h-[100vh] bg-no-repeat bg-cover bg-right  "
         style={{
           backgroundImage: `url("/images/banner.jpg")`,
         }}
       >
         {' '}
         <div className='font-bold text-4xl text-center text-white pt-20'>
-        Instant Loans, from $100 to $5000
+          Instant Loans, from $100 to $5000
         </div>
         <div className="iframe-container">
           <iframe
             title="Frame Content"
             src={frameSrc}
-            width="640"
-            height="360"
+            className='md-w-[640px] md-h-[360px] w-full h-full'
           ></iframe>
         </div>
         {/* <div className="flex flex-col items-center h-full backdrop-blur-sm bg-black/40">

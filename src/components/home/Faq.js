@@ -71,6 +71,31 @@ const Faq = ({bgSet}) => {
                 "
                       des="Late payment penalties vary among lenders. Some may be forgiving if you directly contact them, while others may automatically add a fee as stipulated in their agreement. For further information, please contact your lender directly if you encounter any issues repaying your loan."
                     />
+                     <FaqOne
+                      title="Loan Repayment Details
+                "
+                      des="Please note that loan repayment terms differ depending on the lender. Therefore, we strongly advise you to review the loan agreement provided by your lender for specific information on repayment terms."
+                    />
+                     <FaqOne
+                      title="Essential Customer Information
+                "
+                      des="Personal loans are distinct from other loan types, such as home mortgages or automobile loans. Personal loans grant you the flexibility to utilize funds for various purposes, whether it be medical expenses, home improvements, vehicle repairs, or debt consolidation. These loans are repaid over a predetermined period. Complete the form to discover the amount you can borrow from the comfort of your own home. It's a simple and convenient process!"
+                    />
+                     <FaqOne
+                      title="Purpose of Personal Loans
+                "
+                      des="People acquire personal loans to assist with home repairs, unexpected expenses, holiday shopping, and more. Our reputable lenders can provide you with the cash you need. Just fill out our online form, follow the straightforward process, and if approved, receive your cash loan!"
+                    />
+                     <FaqOne
+                      title="Understanding APR
+                "
+                      des="The Annual Percentage Rate (APR) represents the cost of credit expressed as a nominal yearly rate. It pertains to the timing and amount of value received by the consumer in relation to the timing and amount of payments made. We do not guarantee any specific APR, as we do not act as a lender. Generally, APR can range from 6% to 35%. Loan products typically feature a minimum repayment term of 2 months and a maximum repayment term of 84 months. Prior to accepting a loan within our network, carefully review the loan agreement for any discrepancies in APR and repayment terms from those listed on our site."
+                    />
+                     <FaqOne
+                      title="Collection Practices
+                "
+                      des="We are not involved in the debt collection process. The lender, as part of the lending agreement, will disclose their specific debt collection practices. For any collection-related inquiries, please contact the lender directly, as we only collaborate with reputable lenders who adhere to fair collection practices."
+                    />
                   </div>
                 </div>
               </div>
