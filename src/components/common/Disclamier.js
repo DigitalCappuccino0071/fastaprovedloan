@@ -30,11 +30,11 @@ const Disclamier = () => {
 
                 <div className='md:flexjustify-center md:space-x-5 underline items-center text-white font-bold text-xl pt-16 '>
 
-                    <Link href="/e-consent"> E-Consent </Link>
+                    {/* <Link href="/e-consent"> E-Consent </Link> */}
                     <Link className='md:px-0 px-5' href="/privacy-policy"> Privacy Policy </Link>
                     <Link  href="/terms-of-use"> Terms of Use </Link>
                     <Link className='md:px-0 px-5' href="/disclamier"> Disclamier Policy </Link>
-                    <Link href="/apr-rates"> APR Rates </Link>
+                    {/* <Link href="/apr-rates"> APR Rates </Link> */}
                     <Link className='md:pl-0 pl-5'href="/contact"> Contact Us </Link>
 
                 </div>
