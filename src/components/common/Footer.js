@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className=" bg-white pt-5 md:px-0 px-5">
             <div className="container ">
-                <div className=" grid md:grid-cols-2  gap-6 justify-between pb-6">
+                <div className=" md:grid md:grid-cols-2  gap-6 justify-between pb-6">
                     <div className="space-y-4">
                         <Link href="/">
                             <div>
@@ -23,7 +23,7 @@ const Footer = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="text-end py-5 text-black text-base md:px-0 px-5">
+                    <div className="md:text-end py-5 text-black text-base md:px-0 px-5">
                         <p>
                             {" "}
                             © Copyright ©2024

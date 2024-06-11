@@ -1,12 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { BsChevronDown } from 'react-icons/bs';
-import { FaBars, FaCross, FaTimes } from 'react-icons/fa';
-import { Disclosure } from '@headlessui/react';
-import { RiArrowDropDownLine } from 'react-icons/ri';
-import { useRouter } from 'next/router';
+import Image from "next/image";;
 import {
   Sheet,
   SheetContent,
@@ -51,7 +46,7 @@ const Navbar = ({ bgcolor }) => {
         </Link>
         <Sheet>
           <SheetTrigger><AlignRight className="text-xl" /></SheetTrigger>
-          <SheetContent>
+          <SheetContent onCloseAutoFocus={event => event.preventDefault()}>
             <SheetHeader>
               <SheetTitle>
                 <Image
@@ -61,22 +56,30 @@ const Navbar = ({ bgcolor }) => {
                 />
               </SheetTitle>
 
-              <SheetDescription className="pt-10 text-lg">
-                <Link href="#">Home</Link>
-              </SheetDescription>
-              <SheetDescription className="pt-3 text-lg">
-                <Link href="#">How it works</Link>
-              </SheetDescription>
-              <SheetDescription className="pt-3 text-lg">
-                <Link href="#">Rates & Fees</Link>
-              </SheetDescription>
-              <SheetDescription className="pt-3 text-lg">
-                <Link href="#">FAQ's</Link>
-              </SheetDescription>
-              <SheetDescription className="pt-3 text-lg">
-                <Link href="#">Contact</Link>
-              </SheetDescription>
             </SheetHeader>
+            <div className="flex flex-col space-y-5 font-bold text-md">
+            <SheetTrigger asChild className="mt-10">
+              <Link  href="/">Home</Link>
+            </SheetTrigger>
+           
+            <SheetTrigger  asChild>
+              <Link href="/how-it-works">How it works</Link>
+            </SheetTrigger>
+           
+            <SheetTrigger asChild>
+              <Link href="/rates-&-fees">Rates & Fees</Link>
+            </SheetTrigger>
+           
+            <SheetTrigger asChild>
+              <Link href="/faq">Faq</Link>
+            </SheetTrigger>
+           
+            <SheetTrigger asChild>
+              <Link href="/contact">Conatct</Link>
+            </SheetTrigger>
+            </div>
+
+
           </SheetContent>
         </Sheet>
 
