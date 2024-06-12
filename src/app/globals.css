@@ -21,7 +21,7 @@
 @media (max-width:425px)
 {
   .iframe-container {
-    width: 370px ;
+    width: 390px ;
     position: relative;
     padding-bottom: 96.25%; /* Adjust for aspect ratio if needed */
     height: 0;
