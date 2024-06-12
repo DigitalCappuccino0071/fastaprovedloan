@@ -6,7 +6,7 @@ const Banner = ({ subHeading, image, title, }) => {
         <>
             <div className="relative">
                 <div
-                    className="relative md:h-[50vh] bg-no-repeat bg-top bg-cover"
+                    className="relative md:h-[50vh] h-[30vh] bg-no-repeat bg-top bg-cover"
                     style={{
                         backgroundImage: "url('/images/breadcrumbs.jpg')",
                     }}
