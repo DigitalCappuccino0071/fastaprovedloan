@@ -1,12 +1,14 @@
 import Banner from '@/components/common/Banner'
-import Privacy from '@/components/common/Privacy-page'
+import DisclaimerPage from '@/components/common/Disclaimer-page'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Banner title="Privacy Policy" />
-      <Privacy/>
+      <Banner
+        title="Disclaimer
+"/>
+      <DisclaimerPage />
     </div>
   )
 }

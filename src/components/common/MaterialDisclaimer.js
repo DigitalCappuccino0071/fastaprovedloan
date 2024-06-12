@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Disclamier = () => {
+const MaterialDisclaimer = () => {
     return (
 
         <div
@@ -31,16 +31,16 @@ const Disclamier = () => {
                 <div className='md:flexjustify-center md:space-x-5 underline items-center text-white font-bold text-xl md:pt-16  '>
 
                     {/* <Link href="/e-consent"> E-Consent </Link> */}
-                    <br className='md:hidden block'/>
+                    <br className='md:hidden block' />
                     <Link className='' href="/privacy-policy"> Privacy Policy </Link>
-                    <br className='md:hidden block'/>
-                    <Link  href="/terms-of-use"> Terms of Use </Link>
-                     <br className='md:hidden block'/>
-                    <Link className='' href="/disclamier"> Disclamier Policy </Link>
-                     <br className='md:hidden block'/>
+                    <br className='md:hidden block' />
+                    <Link href="/terms-of-use"> Terms of Use </Link>
+                    <br className='md:hidden block' />
+                    <Link className='' href="/disclaimer"> Disclamier Policy </Link>
+                    <br className='md:hidden block' />
                     {/* <Link href="/apr-rates"> APR Rates </Link> */}
-                     {/* <br className='md:hidden block'/> */}
-                    <Link className=''href="/contact"> Contact Us </Link>
+                    {/* <br className='md:hidden block'/> */}
+                    <Link className='' href="/contact"> Contact Us </Link>
 
                 </div>
             </div>
@@ -49,4 +49,4 @@ const Disclamier = () => {
     )
 }
 
-export default Disclamier
+export default MaterialDisclaimer
