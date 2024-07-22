@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         {children}
         <MaterialDisclaimer />
         <Footer />
-        <Script id="analytics-conversion">
+        <Script strategy="beforeInteractive" id="analytics-conversion">
           {`function gtag_report_conversion(url) {
               var callback = function () {
                 if (typeof(url) != 'undefined') {
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
               return false;
             }`}
         </Script>
-        <Script id="analytics-conversion-two">
+        <Script strategy="beforeInteractive" id="analytics-conversion-two">
           {`gtag('event', 'conversion', {'send_to': 'AW-16631389480/fyB5CK_tksQZEKi6u_o9'});`}
         </Script>
       </body>
