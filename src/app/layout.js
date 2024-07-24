@@ -13,12 +13,12 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={inter.className}>
-                <Test />
+                {/* <Test /> */}
                 <Navbar />
                 {children}
                 <MaterialDisclaimer />
                 <Footer />
-                <Script strategy="beforeInteractive" id="analytics-conversion">
+                {/* <Script strategy="beforeInteractive" id="analytics-conversion">
                     {`function gtag_report_conversion(url) {
               var callback = function () {
                 if (typeof(url) != 'undefined') {
@@ -31,8 +31,8 @@ export default function RootLayout({ children }) {
               });
               return false;
             }`}
-                </Script>
-                <Script
+                </Script> */}
+                {/* <Script
                     strategy="beforeInteractive"
                     id="analytics-conversion-two"
                 >
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
                     id="analytics-conversion-two"
                 >
                     {`gtag('event', 'conversion', {'send_to': 'AW-16631389480/fyB5CK_tksQZEKi6u_o9'});`}
-                </Script>
+                </Script> */}
                 {/* <Script
                     strategy="beforeInteractive"
                     id="analytics-conversion-three"
