@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
                 <MaterialDisclaimer />
                 <Footer />
 
-                <GoogleTagManager gtmId="GTM-T5V6TDPX" />
-                <GoogleTagManager gtmId="GTM-WNGZK579" />
+                {/* <GoogleTagManager gtmId="GTM-T5V6TDPX" /> */}
+                <GoogleTagManager gtmId="AW-16631389480" />
             </body>
         </html>
     );
