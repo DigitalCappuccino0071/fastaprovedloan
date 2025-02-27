@@ -9,6 +9,8 @@ const Page = () => {
   return (
     <div>
       <Banner />
+
+      {/* {''} */}
       <SectionTwo />
       <SectionThree />
       <SectionFour />
